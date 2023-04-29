@@ -1,0 +1,223 @@
+/* === ANY ELEMENT OVERRIDE ===*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #f6f6f6 !important;
+}
+
+/* === FULL PAGE ===*/
+html,
+body {
+    height: 100vh;
+    background-image: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    overflow-x: hidden;
+    font-size: 18px;
+}
+
+/* === dcc.Graphh components ===*/
+.dash-graph.my-graph {
+    background-color: rgba(0,0,0,11.0%);
+    border-radius: 11px;
+}
+
+/* === dbc.Col which contains graphs ===*/
+.multi-graph {
+    padding: 10px 10px 10px 10px;
+}
+
+/* === NAV ===*/
+.logo {
+    padding: 23px 1px 1px 1px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0px 0px 50px #4be9fa;
+}
+
+.app-brand {
+    font-size: 35px;
+    font-weight: 200;
+    text-shadow: 0px 0px 50px #4be9fa;
+}
+
+.my-nav {
+    font-size: 18px !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #042f33;
+}
+
+/* === FOOTER ===*/
+.hr-footer {
+    height: 5px;
+}
+
+.footer {
+    font-size: 15px;
+}
+
+/* === HOME ===*/
+.guide {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100; 
+}
+
+/* === PAGE 1 ===*/
+.row-content {
+    margin: 20px 0px 20px 0px;
+}
+
+.par {
+    text-align: center;
+}
+
+input[type='radio'] {
+    accent-color: #042f33;
+    margin: 5px 5px 5px 5px;
+}
+
+.row-titles {
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.data-upload-invisible {
+    width : 0%;
+    height : 0px;
+    border-radius: none;
+    border-style: none;
+    border-width: 0px;
+    line-height: 0px;
+}
+
+.data-upload-area {
+    width : 100%;
+    height : 60px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-width: 1px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* === PAGE 2 ===*/
+input[type="checkbox" i] {
+    margin-right: 5px;
+    accent-color: #3DED97;
+    border: 1px solid black;
+    border-width: 5px;
+}
+
+.Select-control, .Select-menu-outer {
+    background-color: #042f33 !important;
+    border-width: 1px;
+    border-color: #042f33 !important;
+  }
+
+#stationarity-test {
+    margin: 0px 15px 5px 15px;
+}
+
+.alert, .alert-danger, .alert-success {
+    padding: 3px 10px 3px 10px !important;
+    text-align: center;
+    color:#042f33 !important;
+}
+
+.alert-bold {
+    color:#042f33 !important;
+}
+
+/* === PAGE 3 ===*/
+.slider-div {
+    padding: 8px 3px 0px 3px !important;
+}
+
+.rc-slider-rail { /* Formatting of the non selected part */
+    background-color:#042f33;
+}
+
+.rc-slider-track { /* Formatting of the selected part */
+    background-color: #3DED97;
+}
+
+.rc-slider-handle {
+    border: solid 1px #3DED97;
+    background-color: #042f33;
+}
+
+.rc-slider-handle:hover {
+    border-color: #f6f6f6;
+}
+
+.rc-slider-handle:active {
+    border-color: #f6f6f6;
+    box-shadow: 0 0 5px #3DED97;
+}
+
+.rc-slider-handle-click-focused:focus {
+    border-color: #3DED97;
+    box-shadow: unset;
+}
+
+.rc-slider-tooltip-inner {
+    background-color: #042f33;
+    box-shadow: 0 0 4px #4be9fa;
+}
+
+.div-hyperpar {
+    border: solid 1px #042f33;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.col-hyperpar {
+    padding: 10px 25px 10px 25px;
+}
+
+.my-button {
+    padding: 5px 7px 5px 7px;
+    font-size: 13px;
+    margin: 0px;
+    background-color: #042f33;
+    border: solid 1px #3DED97;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #042f33;
+}
+
+.my-button:hover {
+    box-shadow: 0 0 10px #042f33;
+}
+
+.my-button:active {
+    box-shadow: 0 0 10px #3DED97;
+  }
+
+.dash-sk-circle .dash-sk-child:before {
+    background-color: #3DED97 !important;
+    box-shadow: 0 0 20px #3DED97 !important;
+}
+
+.table {
+    border: solid 1px #042f33;
+    border-radius: 15px !important;
+}
+
+.table>thead {
+    vertical-align: middle !important;
+    text-align: center;
+    background-color: #042f33;
+}
+
+.table>tbody {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* === PAGE 4 ===*/
+.col-fin-dropdown {
+    margin: 0px 5px 0px 0px !important;
+    padding: 0px !important;
+}

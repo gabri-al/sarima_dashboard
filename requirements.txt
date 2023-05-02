@@ -28,6 +28,6 @@ tenacity==8.2.2
 threadpoolctl==3.1.0
 tzdata==2023.3
 urllib3==2.0.0
-Werkzeug==2.3.2
+Werkzeug==2.2.3
 zipp==3.15.0
 gunicorn

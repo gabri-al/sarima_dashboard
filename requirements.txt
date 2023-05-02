@@ -6,7 +6,7 @@ dash-bootstrap-components==1.4.1
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
-Flask==2.3.1
+Flask==2.2.5
 importlib-metadata==6.6.0
 itsdangerous==2.1.2
 Jinja2==3.1.2

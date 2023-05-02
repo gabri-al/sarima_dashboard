@@ -16,9 +16,9 @@ layout = dbc.Container([
     dbc.Row([
         dbc.Col([], width = 2),
         dbc.Col([
-            html.P([html.B('1) Upload your data or select the built-in one (Air Passenger)'),html.Br(),
-                    'The custom data should be in .csv format. Note that only the first two columns will be considered.'], className='guide'),
-            html.P([html.B('2) Apply transformations to your data to make it stationary'),html.Br(),
+            html.P([html.B('1) Built-in dataset'),html.Br(),
+                    'The default dataset used is Air Passenger. The app could work with any .csv file.'], className='guide'),
+            html.P([html.B('2) Apply transformations to make the data stationary'),html.Br(),
                     'The tools available on the page are: log and differencing, the Box-Cox plot and the A. Dickey Fuller test.',html.Br(),
                     'Once the data is stationary, check the ACF and PACF plots for suitable model parameters.'], className='guide'),
             html.P([html.B('3) Perform a SARIMA model grid search'),html.Br(),

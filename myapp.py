@@ -34,5 +34,5 @@ app.layout = dbc.Container([
 ############################################################################################
 # Run App
 if __name__ == '__main__':
-	app.run_server(debug=False) #, host="0.0.0.0"
+	app.run_server(debug=False, host="0.0.0.0") #, host="0.0.0.0"
     #app.run_server(debug=True, port="1234")

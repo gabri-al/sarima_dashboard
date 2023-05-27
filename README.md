@@ -1,7 +1,7 @@
 This Web application guides the user through the steps needed to analyze a time series data and fit the optimal sARIMA model to perform predictions. 
 This application has been built using Plotly Dash and Python
 
-Live App link: https://sarimadashboard-production.up.railway.app/
+Live App link: https://gabria1.pythonanywhere.com/
 
 Supporting article: [available on Medium](https://medium.com/towards-data-science/time-series-data-analysis-with-sarima-and-dash-f4199c3fc092)
 
